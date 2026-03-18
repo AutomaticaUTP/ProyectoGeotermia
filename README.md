@@ -7,18 +7,22 @@ Este repositorio integra diferentes componentes del flujo de trabajo del proyect
 
 ## Estructura general del proyecto
 
-El repositorio se encuentra organizado en tres (*modficar de acuerdo con las necesidades*) grandes etapas, cada una asociada a un componente clave del proyecto de investigación.
+El repositorio se encuentra organizado en cuatro grandes etapas, cada una asociada a un componente clave del proyecto de investigación.
 
 ---
 
-## 1. Gradiente geotérmico y simulación de planta ORC
+## 1. Estimación de variables geológicas (Carlos UTP)
 
 *Completar con descripción* 
 
-## 2. Redes neuronales informadas por la física
+## 2. Simulación planta Organic Rankine Cycle (Jesus David)
 
 *Completar con descripción* 
 
-## 3. Procesamiento de Imágenes 
+## 3. Redes neuronales informadas por la física (Alexandra)
+
+*Completar con descripción* 
+
+## 4. Procesamiento de Imágenes (Lorena)
 
 *Completar con descripción* 
