@@ -1,4 +1,4 @@
-# ProyectoGeotermia
+# Proyecto Geotermia
 
 <p align = "justify">Repositorio oficial para el desarrollo de códigos, experimentos y herramientas computacionales asociadas al proyecto <strong>"Estimación de la capacidad de generación de energía eléctrica del agua coproducida en campos de petróleo y gas en Colombia a partir de técnicas de aprendizaje automático informado por la física."</strong>
 
