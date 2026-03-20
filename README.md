@@ -16,7 +16,7 @@ El repositorio se encuentra organizado en cuatro grandes etapas, cada una asocia
 *Completar con descripción* 
 
 
-## 2. Estimación de variables técnicas y geológicas (Carlos UTP)
+## 2. Estimación de variables técnicas y geológicas
 
 <p align = "justify"> En la primera estapa se condensan los modelos planteados para estimar variables técnicas y geológicas de los pozos, tales como el gradiente geotérmico, los perfiles de temperatura del fluido así como las temperaturas de salida y, finalmente, la caída de presión en pozos verticales bajo flujo líquido–líquido (aceite–agua). Esta etapa está divida en dos vertientes, el gradiente geotérmico y los parámetros del pozo; en la carpeta del gradiente geotérmico se encuentran las bases de datos empleadas en su estimación, el preprocesamiento de imágenes multiespectrales del <strong>LANDSAT 7</strong>, así como carpetas con los diferentes modelos de aprendizaje automático que se han desarrollado para la estimación del gradiente geotérmico, pasando de modelos con solo datos tabulares o solo con imágenes multiespectrales, a modelos multimodales que incluyen datos tabulares e imágenes multiespectrales para la esimación del gradiente. En la carpeta de parámetros del pozo se encuentran los modelos para estimar los perfiles de temperatura del fluido y la caída de presión en pozos verticales.
 
