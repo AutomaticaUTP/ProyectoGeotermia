@@ -25,8 +25,8 @@ El repositorio se encuentra organizado en cuatro grandes etapas, cada una asocia
 *Completar con descripción* 
 
 ## 4. Redes neuronales informadas por la física (Alexandra)
-
-*Completar con descripción* 
+<p align = "justify"> Simulación y modelado del sistema físico masa–resorte ideal utilizando redes neuronales, con el objetivo de comparar un modelo tradicional con una red neuronal hamiltoniana
+ 
 
 ## 5. Procesamiento de Imágenes (Lorena)
 
