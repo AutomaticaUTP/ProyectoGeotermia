@@ -25,9 +25,10 @@ El repositorio se encuentra organizado en cuatro grandes etapas, cada una asocia
 *Completar con descripción* 
 
 ## 4. Redes neuronales informadas por la física (Alexandra)
-<p align = "justify"> Simulación y modelado del sistema físico masa–resorte ideal utilizando redes neuronales, con el objetivo de comparar un modelo tradicional con una red neuronal hamiltoniana
- 
+<p align = "justify">Se consolidan modelos orientados al uso de principios físicos en sistemas dinámicos. Como fase inicial, se desarrolló un experimento enfocado en el modelado de un sistema físico mediante Hamiltonian Neural Networks (HNN), aplicado a un sistema ideal masa–resorte. El objetivo principal es aprender la dinámica del sistema, es decir, su evolución temporal a partir de las variables de estado (posición y momento), y comparar el desempeño entre una red neuronal tradicional (baseline) y una red neuronal informada por principios físicos.
 
+La carpeta incluye un notebook principal en el que se generan los datos del sistema, se construyen y entrenan los modelos, y posteriormente se evalúan mediante la integración de sus dinámicas, comparando métricas como el error y la conservación de la energía. Adicionalmente, se incluyen módulos complementarios para la definición del modelo HNN, que incorpora la estructura física mediante gradientes, y para las arquitecturas de redes neuronales base, incluyendo perceptrones multicapa y autoencoders.
+ 
 ## 5. Procesamiento de Imágenes (Lorena)
 
 *Completar con descripción* 
