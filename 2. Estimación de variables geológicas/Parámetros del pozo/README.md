@@ -10,4 +10,10 @@
 
 ---
 
-# 
+# Caída de presión en pozo vertical con mezcla aceite–agua
+
+<p align = 'justify'>Este código calcula la caída de presión en un pozo vertical para una mezcla de aceite y agua, considerando dos aportes principales: el componente hidrostático, debido al peso de la columna de fluido, y el componente por fricción, asociado al rozamiento con la tubería. Con ello, permite estimar tanto la presión a lo largo de la profundidad como la caída total de presión entre cabeza y fondo.
+
+<p align = 'justify'>El modelo usa un enfoque homogéneo o no-slip, por lo que ambas fases se tratan como una sola mezcla con propiedades efectivas de densidad y viscosidad. A partir de estas propiedades se calcula el número de Reynolds y el factor de fricción de Darcy, usando expresiones estándar para régimen laminar, transicional y turbulento.
+
+<p align = 'justify'>Además de obtener la caída total de presión, el script permite construir el perfil de presión <code>P(z)</code> cuando se conoce una presión de referencia en cabeza o en fondo del pozo. El bloque principal incluye ejemplos para producción e inyección, junto con gráficos del perfil de presión y de la contribución hidrostática y friccional al gradiente total.
