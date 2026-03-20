@@ -1,0 +1,14 @@
+geopandas
+geopy
+matplotlib
+numpy
+pandas
+seaborn
+shapely
+scikit-learn
+tqdm
+rasterio
+xgboost
+pyproj
+math
+openpyxl
