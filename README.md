@@ -7,7 +7,7 @@
 
 ## Estructura general del proyecto
 
-El repositorio se encuentra organizado en cuatro grandes etapas, cada una asociada a un componente clave del proyecto de investigación.
+El repositorio se encuentra organizado en cinco grandes etapas, cada una asociada a un componente clave del proyecto de investigación.
 
 ---
 
