@@ -1,35 +1,22 @@
-# Modelos para la estimación del gradiente geotérmico 
+# Estimación del gradiente geotérmico mediante modelos multimodales
+
+<p align = 'justify'>Este repositorio reúne los datos, códigos de preprocesamiento y de los modelos desarrollados para la <strong>estimación del gradiente geotérmico</strong> a partir de la integración de <strong>datos tabulares</strong>strong> e <strong>imágenes satelitales multiespectrales</strong>. El proyecto parte de la idea de que la caracterización del potencial geotérmico puede enriquecerse cuando se combinan fuentes de información heterogéneas, capaces de describir tanto las propiedades observadas en campo o derivadas de análisis previos, como los patrones espaciales y espectrales presentes en imágenes satelitales.
+
+<p align = 'justify'> En este contexto, los <strong>datos tabulares</strong> incluyen variables geológicas, geofísicas y topográficas asociados a pozos de hidrocarburos alrededor del país. Por otra parte, las <strong>imágenes multiespectrales</strong> permiten capturar información de la superficie terrestre en distintas bandas del espectro electromagnético, lo que facilita la identificación de rasgos relacionados con alteraciones minerales, estructuras geológicas, cobertura del suelo y otras señales indirectamente vinculadas con sistemas geotérmicos.
 
 ---
 
-<p align = "justify">En esta carpeta se tiene condensada toda la información necesaria y recopilada para la estimación del gradiente geotérmico, desde las bases de datos empleadas, así cómo las imágenes satelitales multiespectrales y cada uno de los modelos planteados en sus carpetas.  
+<p align = 'justify'>El propósito principal de esta carpeta del repositorio es construir y comparar distintos enfoques de modelado para determinar en qué medida cada fuente de información contribuye a la predicción del gradiente geotérmico. Para ello, se plantean tres líneas de trabajo complementarias: modelos basados únicamente en datos tabulares, modelos basados únicamente en imágenes multiespectrales y <strong>modelos multimodales</strong> que fusionan ambas fuentes dentro de una misma arquitectura de aprendizaje, donde se espera que la combinación de ambas modalidades permita mejorar el desempeño predictivo de los modelos unimodales.
 
-<p align = "justify">Este repositorio integra diferentes componentes del flujo de trabajo del proyecto, desde el procesamiento de datos geofísicos para la estimación de parámetros geológicos, como el gradiente geotérmico, pasando por los métodos de simulación de generación de energía eléctrica a partir de la metodología ORC (*Organic Rankine Cycle*), los modelos de aprendizaje automático informado por la física y el procesamiento de imágenes para la estimación del impacto ambiental de los proyectos de explotación de hidrocarburos. 
-
-
-## Estructura general del proyecto
-
-El repositorio se encuentra organizado en cuatro grandes etapas, cada una asociada a un componente clave del proyecto de investigación.
+<p align = 'justify'>Además de servir como entorno de experimentación, este repositorio busca mantener una organización clara y reproducible del flujo de trabajo, desde la preparación de los datos y el preprocesamiento de imágenes LANDSAT, hasta el entrenamiento, validación y comparación de modelos. De esta manera, se pretende facilitar tanto el análisis técnico de resultados como la reutilización de la metodología en estudios posteriores sobre exploración y caracterización geotérmica.
 
 ---
 
-## 1. Descripción del sistema de datos
+## Fuentes de información consideradas
 
-*Completar con descripción* 
+Este proyecto se basa en dos grandes tipos de entrada:
 
+- **Datos tabulares**: variables geológicas y geofísicas estructuradas asociadas pozos de hidrocarburos alrededor de Colombia.
+- **Imágenes multiespectrales**: escenas satelitales procesadas para extraer información espectral y espacial relevante de Colombia.
 
-## 2. Estimación de variables técnicas y geológicas (Carlos UTP)
-
-<p align = "justify"> En la primera estapa se condensan los modelos planteados para estimar variables técnicas y geológicas de los pozos, tales como el gradiente geotérmico, los perfiles de temperatura del fluido así como las temperaturas de salida y, finalmente, la caída de presión en pozos verticales bajo flujo líquido–líquido (aceite–agua). Esta etapa está divida en dos vertientes, el gradiente geotérmico y los parámetros del pozo; en la carpeta del gradiente geotérmico se encuentran las bases de datos empleadas en su estimación, el preprocesamiento de imágenes multiespectrales del <strong>LANDSAT 7</strong>, así como carpetas con los diferentes modelos de aprendizaje automático que se han desarrollado para la estimación del gradiente geotérmico, pasando de modelos con solo datos tabulares o solo con imágenes multiespectrales, a modelos multimodales que incluyen datos tabulares e imágenes multiespectrales para la esimación del gradiente. En la carpeta de parámetros del pozo se encuentran los modelos para estimar los perfiles de temperatura del fluido y la caída de presión en pozos verticales.
-
-## 3. Simulación planta Organic Rankine Cycle (Jesus David)
-
-*Completar con descripción* 
-
-## 4. Redes neuronales informadas por la física (Alexandra)
-
-*Completar con descripción* 
-
-## 5. Procesamiento de Imágenes (Lorena)
-
-*Completar con descripción* 
+---
