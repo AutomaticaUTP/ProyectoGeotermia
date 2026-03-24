@@ -11,7 +11,7 @@ El repositorio se encuentra organizado en cinco grandes etapas, cada una asociad
 
 ---
 
-## 1. Descripción del sistema de datos
+## 1. Descripción del sistema de datos (Carlos UNAL)
 
 *Completar con descripción* 
 
