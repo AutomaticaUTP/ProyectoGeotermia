@@ -27,4 +27,4 @@ El sistema está listo para ser escalado. La automatización de este proceso per
 3.  **Cumplimiento Regulatorio:** Herramienta clave para auditorías ambientales y reportes de sostenibilidad (ESG).
 
 ---
-*Preparado para la junta directiva — 24 de marzo de 2026*
+*Preparado para la junta directiva — 25 de marzo de 2026*
