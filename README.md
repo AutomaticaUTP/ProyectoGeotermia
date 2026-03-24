@@ -22,7 +22,7 @@ El repositorio se encuentra organizado en cinco grandes etapas, cada una asociad
 
 ## 3. Simulación planta Organic Rankine Cycle (Jesus David)
 <p align = "justify"> Se presentan dos tipos de enfoques para la simulación: un enfoque dinámico de la planta ORC y un enfoque
-en estado estacionario de la planta ORC. Cada enfoque cuenta con un modelo y códigos. El modelo dinámico simula cada elemento de la planta ORC convencional para ver su comportamiento transitorio; por otro lado, el modelo estacionario toma en cuenta cada elemento y con ecuaciones físicas, se crea un modelo en conjunto de la planta. EL modelo estacionario cuenta con dos códigos: un código donde se valida el modelo físico y otro donde se toma el modelo validado y se generaliza dejando abierto la posibilidad de cambiar parámetros de operación y de diseño.
+en estado estacionario de la planta ORC. Cada enfoque cuenta con un modelo y códigos. El modelo dinámico simula cada elemento de la planta ORC convencional para ver su comportamiento transitorio; por otro lado, el modelo estacionario toma en cuenta cada elemento y con ecuaciones físicas, se crea un modelo en conjunto de la planta. El modelo estacionario cuenta con dos códigos: un código donde se valida el modelo físico y otro donde se toma el modelo validado y se generaliza dejando abierto la posibilidad de cambiar parámetros de operación y de diseño.
 *Completar con descripción* 
 
 ## 4. Redes neuronales informadas por la física
