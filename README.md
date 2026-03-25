@@ -11,9 +11,11 @@ El repositorio se encuentra organizado en cinco grandes etapas, cada una asociad
 
 ---
 
-## 1. Descripción del sistema de datos (Carlos UNAL)
+## 1. Descripción del sistema de datos 
 
-*Completar con descripción* 
+<p align = "justify"> En esta primera etapa se detalla la implementación completa de la solución técnica que automatiza el ciclo de vida de los datos geológicos y termodinámicos. El flujo de trabajo abarca desde la extracción de datos en repositorios públicos (mediante web scraping en el Geothermal Data Repository), pasando por una validación semántica asistida por Inteligencia Artificial empleando un LLMs locales para evaluar la viabilidad de los datasets frente a criterios de ingeniería geotérmica (ORC), hasta su ingesta estructurada en el portales de datos CKAN y en bases de datos relacionales en PostgreSQL.
+
+<p align = "justify"> El sistema adopta un paradigma de diseño modular dividido en cuatro componentes principales: un módulo de <strong>adquisición de datos</strong> para extraer de forma robusta e idempotente metadatos y archivos; un módulo de  <strong>procesamiento y análisis inteligente</strong> que emplea modelos de IA para filtrar y extraer automáticamente variables físicas (temperatura, flujo de masa, geoquímica); un módulo de <strong>ingesta y publicación </strong> que publica los datos catalogados como viables manejando su descompresión; y un módulo final de <strong>estructuración relacional</strong> encargado de transformar y centralizar los datos crudos hacia esquemas de bases de datos.
 
 
 ## 2. Estimación de variables técnicas y geológicas
