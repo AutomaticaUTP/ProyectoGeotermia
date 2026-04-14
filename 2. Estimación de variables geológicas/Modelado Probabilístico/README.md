@@ -63,7 +63,7 @@ $$y'' = \frac{\log(y) - \mu_{\log}}{\sigma_{\log}}$$
 
 Las predicciones se desestandarizan y se deshace la transformación logarítmica teniendo en cuenta que la distribución resultante es log-normal:
 
-$$\hat{y} = \exp\!\left(\mu_{\log} + \frac{\sigma_{\log}^2}{2}\right)$$
+$$\hat{y} = \exp\left(\mu_{\log} + \frac{\sigma_{\log}^2}{2}\right)$$
 
 donde $\mu_{\log}$ y $\sigma_{\log}^2$ son la media y varianza predichas en el espacio logarítmico original.
 
