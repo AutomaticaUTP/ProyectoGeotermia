@@ -1,0 +1,44 @@
+# @package _global_
+
+defaults:
+  - _self_
+
+training:
+  lr: 1.0e-3
+  batch_size: 32
+  epochs: 50
+  optimizer: adam          # adam | sgd | adamw
+  scheduler: cosine        # cosine | step | none
+  use_amp: true
+
+model:
+  in_channels: 4           # RGB + NIR
+  out_channels: 1
+  encoder: resnet34        # resnet18 | resnet34 | resnet50
+
+loss:
+  loss_type: focal      # combined | focal | dice
+  focal_alpha: 0.75
+  focal_gamma: 2.0
+  dice_weight: 0.0
+  focal_weight: 1.0
+  dice_smooth: 1.0e-6      # epsilon for dice denominator
+  dice_reduction: mean
+  focal_reduction: mean
+
+data:
+  train_path: data/train.bin
+  val_path: data/val.bin
+  image_size: 256
+  augmentation: true
+
+
+metrics:
+  threshold: 0.5
+  average: macro           # macro only (binary segmentation)
+
+system:
+  seed: 42
+  num_workers: 4
+  checkpoint_dir: checkpoints
+  log_dir: logs
