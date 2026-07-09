@@ -1,5 +1,3 @@
-<p align = 'justify'>En esta carpeta del repositorio se encuentra contenida la información empleada y los modelos para estimar el potencial de generación de las plantas ORC, dentro de la carpeta de Bayesian regresor se encuentra la siguiente información:.
-
 ---
 
 ## Vertientes de la carpeta
