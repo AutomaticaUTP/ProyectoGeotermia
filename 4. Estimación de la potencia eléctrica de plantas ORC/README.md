@@ -7,7 +7,7 @@
 
 ## Análisis térmico y termodinámico de la planta ORC
 
-<p align = 'justify'>Contiene los archivos relacionados con el análisis térmico y termodinámico de la planta ORC. En esta carpeta se estudian las condiciones de operación del ciclo, el comportamiento de las variables termodinámicas y la estimación de potencia a partir del funcionamiento de la planta.
+<p align = 'justify'>Contiene los archivos relacionados con el análisis térmico y termodinámico de la planta ORC en el polígono 12 del proyecto. En esta carpeta se estudian las condiciones de operación del ciclo, el comportamiento de las variables termodinámicas y la estimación de potencia a partir del funcionamiento de la planta.
 
 ## Bayesian regressor
 
