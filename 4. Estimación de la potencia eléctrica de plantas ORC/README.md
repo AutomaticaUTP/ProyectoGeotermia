@@ -5,16 +5,6 @@
   
 <p align = 'justify'>El repositorio se encuentra organizado en carpetas temáticas:
 
-Estimacion_Potencia/
-│
-├── Análisis térmico y termodinámico de la planta ORC/
-│
-├── Bayesian regressor/
-│
-├── Modelo potencia conceptual y potencia real de los pozos/
-│
-└── README.md
-
 ## Análisis térmico y termodinámico de la planta ORC
 
 <p align = 'justify'>Contiene los archivos relacionados con el análisis térmico y termodinámico de la planta ORC. En esta carpeta se estudian las condiciones de operación del ciclo, el comportamiento de las variables termodinámicas y la estimación de potencia a partir del funcionamiento de la planta.
