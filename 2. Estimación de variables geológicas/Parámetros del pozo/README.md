@@ -17,3 +17,13 @@
 <p align = 'justify'>El modelo usa un enfoque homogéneo o no-slip, por lo que ambas fases se tratan como una sola mezcla con propiedades efectivas de densidad y viscosidad. A partir de estas propiedades se calcula el número de Reynolds y el factor de fricción de Darcy, usando expresiones estándar para régimen laminar, transicional y turbulento.
 
 <p align = 'justify'>Además de obtener la caída total de presión, el script permite construir el perfil de presión <code>P(z)</code> cuando se conoce una presión de referencia en cabeza o en fondo del pozo. El bloque principal incluye ejemplos para producción e inyección, junto con gráficos del perfil de presión y de la contribución hidrostática y friccional al gradiente total.
+
+---
+
+# Análisis de Sensibilidad de Temperatura en Cabeza de Pozo
+
+<p align = 'justify'>Este modelo estima la temperatura del fluido en cabeza de pozo a partir de información térmica del fondo y de las condiciones físicas del pozo. Para ello, aplica un modelo térmico vertical que representa el intercambio de calor entre el fluido ascendente y la formación geológica.
+
+<p align = 'justify'>El análisis considera que las variables reales de cada pozo permanecen fijas, mientras que se modifican parámetros asumidos relacionados con la roca, el fluido, la geometría del pozo y el comportamiento térmico del sistema. Con esto se evalúa cómo cambian las temperaturas estimadas en superficie ante variaciones en dichos parámetros.
+
+<p align = 'justify'>El procedimiento aplica un análisis de sensibilidad global mediante índices de Sobol, lo que permite identificar qué parámetros tienen mayor influencia sobre la temperatura en cabeza de pozo. Además, genera un análisis tipo tornado para visualizar el efecto individual de cada parámetro asumido sobre la respuesta del modelo.
