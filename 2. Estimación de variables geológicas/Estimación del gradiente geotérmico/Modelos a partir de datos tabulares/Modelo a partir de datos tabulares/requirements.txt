@@ -1,0 +1,37 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# requirements.txt
+# Notebooks: gradiente-tabular-optuna-v5-mod.ipynb | tabular_model_rerun_v2.ipynb
+#
+# Nota: cuml (RAPIDS) NO se instala via pip. Requiere GPU NVIDIA y está
+# preinstalado en Kaggle al activar el acelerador GPU T4 x2 / P100.
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Modelos de gradiente potenciado
+catboost
+xgboost
+lightgbm
+
+# Optimización de hiperparámetros
+optuna
+
+# Machine learning general
+scikit-learn
+
+# Manipulación de datos
+numpy
+pandas
+
+# Serialización de modelos
+joblib
+
+# Visualización
+matplotlib
+seaborn
+
+# Geoespacial
+geopandas
+shapely
+contextily
+
+# Barra de progreso
+tqdm
